@@ -3,7 +3,7 @@
 require_relative '../classes/solver'
 
 describe Solver do
-  context 'Test Solver class and methods' do
+  context 'Test Solver class and method factorial' do
     it 'Should return factorial of 5 equals to 120' do
       factorial = Solver.new.factorial(5)
       expect(factorial).to eq 120
@@ -24,4 +24,32 @@ describe Solver do
       expect(factorial).to eq 1
     end
   end
+
+  context 'Test Solver class and method reverse' do
+    it 'Return a reversed word' do
+      reversed = Solver.new.reverse('hello')
+      expect(reversed).to eq ('olleh')
+    end
+  end
+
+  context 'Test Solver class and method fizzbuzz' do
+    it 'If number is divisible by 3, return fizz' do
+      zz = Solver.new.fizzbuzz(6)
+      expect(zz).to eq ('fizz') 
+    end
+    it 'If number is divisible by 3, return fizz' do
+      zz = Solver.new.fizzbuzz(10)
+      expect(zz).to eq ('buzz') 
+    end
+    it 'If number is divisible by 3, return fizz' do
+      zz = Solver.new.fizzbuzz(15)
+      expect(zz).to eq ('fizzbuzz') 
+    end
+    it 'If number is divisible by 3, return fizz' do
+      zz = Solver.new.fizzbuzz(7)
+      expect(zz).to eq ('7') 
+    end
+  end
+  
 end
+
