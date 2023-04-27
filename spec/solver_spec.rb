@@ -24,32 +24,34 @@ describe Solver do
       expect(factorial).to eq 1
     end
   end
+end
 
+describe Solver do
   context 'Test Solver class and method reverse' do
     it 'Return a reversed word' do
       reversed = Solver.new.reverse('hello')
-      expect(reversed).to eq ('olleh')
+      expect(reversed).to eq('olleh')
     end
   end
+end
 
+describe Solver do
   context 'Test Solver class and method fizzbuzz' do
     it 'If number is divisible by 3, return fizz' do
       zz = Solver.new.fizzbuzz(6)
-      expect(zz).to eq ('fizz') 
+      expect(zz).to eq('fizz')
     end
     it 'If number is divisible by 3, return fizz' do
       zz = Solver.new.fizzbuzz(10)
-      expect(zz).to eq ('buzz') 
+      expect(zz).to eq('buzz')
     end
     it 'If number is divisible by 3, return fizz' do
       zz = Solver.new.fizzbuzz(15)
-      expect(zz).to eq ('fizzbuzz') 
+      expect(zz).to eq('fizzbuzz')
     end
     it 'If number is divisible by 3, return fizz' do
       zz = Solver.new.fizzbuzz(7)
-      expect(zz).to eq ('7') 
+      expect(zz).to eq('7')
     end
   end
-  
 end
-
