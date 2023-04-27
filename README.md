@@ -90,15 +90,19 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/anderCM)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/andersoncanales/)
 
+👤 **Felipe Haybar**
+
+- GitHub: [@Feliverse](https://github.com/Feliverse)
+- Twitter: [@FelipeHaybar](https://twitter.com/FelipeHaybar)
+- LinkedIn: [FelipeHaybar](https://linkedin.com/in/FelipeHaybar)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Database Implementation]**
 - [ ] **[Validations]**
-- [ ] **[Tests]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
